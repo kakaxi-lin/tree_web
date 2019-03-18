@@ -20,7 +20,6 @@ public class TreeServlet extends HttpServlet {
 	}
 
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("doPost...");
 		
 		List<Dept> list=new ArrayList<Dept>();
 		list.add(new Dept(1,"公司x",0));
